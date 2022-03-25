@@ -4,12 +4,12 @@ public class Factorial {
 
 	public static void main(String[] args) {
 		
-			int input =10;
+			int input;
 			int fact=1;
 			
-			for (int i = 1; i <= input; i++) {
+			for (input = 10; input > 0; input--) {
 				
-				fact = fact * i;
+				fact = fact * input;
 			}
 		
 		System.out.println(fact);
